@@ -15,11 +15,23 @@
   content: "]";
 }
 
-.menu > li {
+.menu>li {
   display: inline;
 }
 
-.menu > li + li:before {
+.menu>li+li:before {
   content: "|";
   padding-right: 0.3em;
+}
+
+/**/
+h2 {
+  text-align: center;
+}
+
+.tomimg {
+  width: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
 }
